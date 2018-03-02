@@ -16,6 +16,7 @@ export * from './Mutation';
 export { default as Subscription } from './Subscriptions';
 export * from './Subscriptions';
 
+export { default as gql } from 'graphql-tag';
 export { graphql } from './graphql';
 export * from './query-hoc';
 export * from './mutation-hoc';
